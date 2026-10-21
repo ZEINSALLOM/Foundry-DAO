@@ -35,8 +35,6 @@ The `Box` contract serves as a simple example of a smart contract whose state ca
 └── README.md
 ```
 
-*Adjust the file names and paths if your repository uses a different structure.*
-
 ## Smart Contracts
 
 ### 1. Box.sol
@@ -61,9 +59,6 @@ Implements the DAO governance token.
 - **ERC20Permit:** Signature-based approvals.
 - **Minting:** Creates tokens through the `mint()` function.
 
-> **Security Note:** The current `mint()` function is publicly accessible. Anyone can mint tokens to any address. Restrict minting permissions before using this contract in production.
-
-Token holders must delegate their voting power before that power can be used for governance voting.
 
 ### 3. MyGovernor.sol
 
