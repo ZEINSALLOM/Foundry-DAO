@@ -19,16 +19,6 @@ The `Box` contract serves as a simple example of a smart contract whose state ca
 - **Timelock Execution:** Enforces a configurable delay before approved proposals can be executed.
 - **Automated Testing:** Uses Foundry to test governance execution and access control.
 
-## Tech Stack
-
-| Technology | Purpose |
-|---|---|
-| Solidity | Smart contract development |
-| OpenZeppelin Contracts | ERC-20, voting, governance, and timelock implementations |
-| Foundry | Smart contract development and testing |
-| Forge | Compilation and test execution |
-| `forge-std` | Testing utilities and assertions |
-
 ## Project Structure
 
 ```text
@@ -137,11 +127,9 @@ Depending on its outcome, a proposal may instead be defeated, canceled, or expir
 ### Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_DIRECTORY>
+git clone https://github.com/ZEINSALLOM/Foundry-DAO.git
+cd Foundry-DAO
 ```
-
-Replace the placeholders with your repository URL and project directory.
 
 ### Install Dependencies
 
